@@ -5,7 +5,7 @@ const total = document.getElementById('total');
 const movieSelect = document.getElementById('movie');
 
 
-const ticketPrice = +movieSelect.value;
+let ticketPrice = +movieSelect.value;
 //UPDATE TOTAL AND COUNT
 function updateCount() {
     const selectedSeats = document.querySelectorAll('.row .seat.selected');
